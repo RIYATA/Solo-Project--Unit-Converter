@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,7 +7,7 @@ html, body {
     background-color: #FBF7EE;
 }
 
-.top{
+.top {
     padding-top: 53px;
     padding-bottom: 12px;
     position: flex;
@@ -14,10 +15,10 @@ html, body {
     justify-content: center;
     text-align: center;
     height: 260px;
-    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    background: linear-gradient(246.26deg, #fa6837 0%, #FB3796 100%);
 }
 
-h1{
+h1 {
     position: flex;
     font-family: Inter;
     font-style: normal;
@@ -30,10 +31,11 @@ h1{
     color: #FFFFFF;
 }
 
-p{
-    text-align:center;
+p {
+    text-align: center;
 }
-input{
+
+input {
     /* position:flex; */
     /* width: 211px; */
     /* height: 85.22999999999999px; */
@@ -48,29 +50,30 @@ input{
     outline: none;
     /* color: #FFFFFF; */
     background-color: transparent;
-    border:0px;
+    border: 0px;
     border-style: none;
-    color:white;
-    
+    color: white;
+
 }
 
 /* 去除webkit中input的type="number"时出现的上下图标 */
 input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-    }
-    input[type="number"] {
-        -moz-appearance: textfield;
-    }
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 
-/* 当选中时输入框内颜色消失 */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* 当选中时输入框内颜色消�? */
 /* input::selection{
     background-color: transparent;
     border:0px;
     background: transparent;
 } */
 
-.info{
+.info {
     /* position: absolute; */
     display: flex;
     margin-left: 102px;
@@ -79,7 +82,7 @@ input::-webkit-outer-spin-button,
     text-align: center;
 }
 
-h2{
+h2 {
     /* position: absolute; */
     /* width: 346px;
     height: 25px;
